@@ -1,0 +1,21 @@
+// Theme
+    // Electron Color Theme
+
+// Extensions
+    // Bracket Pair Color DLW
+    // Color Highlight
+    // Color Info
+    // ESLint
+    // indent-rainbow
+    // Live Server
+    // Material Icon Theme
+    // Rocketseat React Native
+    // Tailwind Shades
+
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Electron",
+    "indentRainbow.includedLanguages": ["html"],
+    // "indentRainbow.excludedLanguages": ["css, json"],
+    "indentRainbow.lightIndicatorStyleLineWidth": 4,
+}
