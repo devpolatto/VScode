@@ -11,11 +11,38 @@
     // Material Icon Theme
     // Rocketseat React Native
     // Tailwind Shades
+    // JavaScript and TypeScript Nightly
+    // Docker
+    // HashiCorp Terraform
+    // Markdown Preview Enhanced
+    // Prettier - Code formatter
+    // YAML
 
 {
+    // Styles
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Electron",
+    "editor.lineHeight": 24,
+    "editor.tabSize": 2,
+
+    // identRainbow
     "indentRainbow.includedLanguages": ["html"],
-    // "indentRainbow.excludedLanguages": ["css, json"],
     "indentRainbow.lightIndicatorStyleLineWidth": 4,
+    // "indentRainbow.excludedLanguages": ["css, json"],
+
+    // Others
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        "*.tsx": "typescriptreact",
+        ".env.*": "dotenv",
+        ".prettierrc": "json"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    // Tabine
+    "tabnine.experimentalAutoImports": true,
+    
 }
